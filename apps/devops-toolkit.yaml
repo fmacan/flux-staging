@@ -12,10 +12,10 @@ spec:
         kind: GitRepository
         name: devops-toolkit
   interval: 30s
-  targetNamespace: staging
+  targetNamespace: production
   values:
     image:
       tag: 2.9.9
     ingress:
-      host: staging.devops-toolkit.127.0.0.1.nip.io
+      host: production.devops-toolkit.127.0.0.1.nip.io
 
