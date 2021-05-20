@@ -17,5 +17,5 @@ spec:
     image:
       tag: 2.9.17
     ingress:
-      host: devops-toolkit..nip.io
+      host: devops-toolkit.127.0.0.1.nip.io
 
